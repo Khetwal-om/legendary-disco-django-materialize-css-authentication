@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+.set-background{ 
+    background-image: url('/img/backgrounds.jpg');
+    background-size: cover;
+
+
+}
+
+
+.fix-image{
+    max-width: 100%;
+    height: 100%;    
+    object-fit: contain;    
+
+}

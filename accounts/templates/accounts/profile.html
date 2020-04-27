@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../../../static/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="../../../static/css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Materialize Theme</title>
+</head>
+
+<body>
+
+
+  <div class="navbar-fixed">
+    <nav class="purple lighten-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo">Aviato</a>
+          <a href="#!" class="button-collapse" data-activates="mobile-nav">
+            <i class="material-icons">menu</i>
+          </a>
+
+          <ul class="right hide-on-med-and-down">
+
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+
+            <li>
+              <a href="register.html">SignUp</a>
+            </li>
+            
+
+            <li>
+              <a href="profile.html">Dashboard</a>
+            </li>
+
+            <li>
+              <a href="logout.html">logout</a>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <ul class="side-nav" id="mobile-nav">
+
+    
+    <li>
+      <a href="login.html">Login</a>
+    </li>
+
+    <li>
+      <a href="register.html">SignUp</a>
+    </li>
+    
+
+    <li>
+      <a href="profile.html">Dashboard</a>
+    </li>
+
+    <li>
+      <a href="logout.html">logout</a>
+    </li>
+
+  </ul>
+
+
+
+
+  <section class="section section-login">
+    <div class="container">
+        <div class="row card-panel z-depth-5 grey lighten-4 set-background">
+            <div class="col m4 s12">
+                <img src="/img/a.jpg" class="responsive-image circle fix-image" alt="">              
+              </div>
+            <div class="col m8 s12  purple-text darken-3 hide-on-med-and-down">
+                <h5>Lorem, ipsum dolor sit amet consectetur adipisicipit blanditiis dolores autem soluta dolorum quis in quaerat!</h5>
+            </div>
+        </div>
+        <div class="row card-panel hoverable">
+            <div class="col m6 s12">
+              <i class="material-icons left">email</i>  abc@gmail.com
+            </div>
+            <div class="col m6 s12">
+                <p>Lorem ipsum dolor, sietur </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../../../static/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+
+        $('.button-collapse').sideNav();
+    });
+  </script>
+</body>
+
+</html>

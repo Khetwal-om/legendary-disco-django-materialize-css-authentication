@@ -1,0 +1,43 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+
+  <section class="section section-login">
+    <div class="container">
+        <div class="row card-panel z-depth-5 grey lighten-4">
+            <h4 class="purple-text center">LOGIN</h4>
+            <form method="post">
+                {% csrf_token %}
+                <div class="col s12 m6 offset-m3">
+
+                <div class="input-field">
+                    <label for="username">name</label>
+                    <input type="text" name="username" placeholder="username" id="username">
+                </div>
+
+                <div class="input-field">
+                    <label for="password">password</label>
+                    <input type="password" name="password" placeholder="password" id="password">
+                </div>
+
+
+                <div class="input-field center">
+                    <input class="btn btn-large purple" type="submit" value="click">
+                </div>
+
+
+            </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}
+
+    
+
+
+
